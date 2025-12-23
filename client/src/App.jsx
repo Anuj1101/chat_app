@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import io from "socket.io-client";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://chat-app-r0vt.onrender.com");
 
 function App() {
   const nameRef = useRef(null);
